@@ -59,3 +59,22 @@ section {
     margin-right: auto;
 }
 
+#spotify, #socials {
+    border: none;
+}
+
+#hometxt {
+    background-image: url('src/threeidiots.jpg');
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: black;
+}
+strong {
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    position: absolute;
+}
+
