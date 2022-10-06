@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Personal Website - Yoza</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark text-warning">
+    <!-- load javascript after loading all html content -->
+    <div>
+        <nav class="navbar navbar-expand fixed-top navbarScroll text-warning row text-center bg-black m-0">
+            <div class="container-fluid">
+                <a class="navbar-item col text-warning" href="#home">Home</a>
+                <a class="navbar-item col text-warning" href="#about">About</a>
+                <a class="navbar-item col text-warning" href="#contact">Contact</a>
+            </div>
+        </nav>
+    </div>
+
+    <section id="home">
+        <div class="container-fluid mt-5">
+            <div class="card bg-dark text-center">
+                <!-- <img src="src/orchid1.jpg" class="card-img bg-gradient"> -->
+                <div class="">
+                    <h1 class="display-1 card-title text-warning text-center">Print("Hello World")</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="container card-groups">
+            <div class="row text-center">
+                <h1>About</h1>
+            </div>
+            <div class="container card">
+                <div class="card-header row">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="true" href="#me" data-bs-toggle="collapse"
+                                aria-expanded="true" role="button">
+                                About Me
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="false" href="#dog" data-bs-toggle="collapse"
+                                aria-expanded="false" role="button">
+                                About My Dog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-body collapse show" id="me">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="src/mypic.JPG" alt="" class="card-img img-thumbnail img-fluid">
+                        </div>
+                        <div class="col-9">
+                            <div class="card-title mb-2">
+                                <h5>About Me</h5>
+                            </div>
+                            <div class="card p-3 mb-3">
+                                Hi, I'm Yoza, a Y2 Information Systems Student at SMU. To know more about me, you can
+                                follow my socials below!
+                            </div>
+                            <div class="card p-3 mb-3">
+                                <ul>
+                                    <li>Instagram: <a
+                                            href="https://www.instagram.com/yozafard_harold/">@yozafard_harold</a></li>
+                                    <li>Linkedin: <a
+                                            href='https://www.linkedin.com/in/yozafard-harold-siauheming'>https://www.linkedin.com/in/yozafard-harold-siauheming</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <a href="https://drive.google.com/file/d/1S_It-_ZJQYRSF8it_yAmtssmeDE_JZ2I/view?usp=sharing"
+                                    class="btn btn-primary p-3" role="button">View my resume here!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-body collapse show" id="dog">
+                    <div class="row">
+                        <div class="col-6">
+                            <!--
+                            <div id="izzypics" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="src/izzy1.jpg">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="src/izzy2.jpg">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="...">
+                                    </div>
+                                </div>
+                            </div>
+                        -->
+                            <img src="src/izzy5.jpg" alt="" class="card-img img-thumbnail" id="izzy">
+                        </div>
+                        <div class="col-6">
+                            <div class="card-title mb-2">
+                                <h5>About My Dog</h5>
+                            </div>
+                            <div class="card p-3 mb-3 mt-3">
+                                This is Izzy, a female 2 years old toy poodle. She is extremely clingy and picky
+                                about food, but she loves McDonalds chicken
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas"
+                            style="height:100%; width:100%;max-width:100%; margin-left: auto; margin-right: auto;">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7883193502826!2d103.84907071475396!3d1.3019347990504277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bbed5566b3%3A0x7bbf30b412738dfd!2sSMU%20Prinsep%20Street%20Residences%20(PSR)!5e0!3m2!1sid!2ssg!4v1665035149654!5m2!1sid!2ssg"
+                                width="75%" height="75%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com"
+                            id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>
+                            #embedmap-canvas img {
+                                max-width: none !important;
+                                background: none !important;
+                                font-size: inherit;
+                                font-weight: inherit;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 text-black">
+                    <!-- form fields -->
+                    <div class="card p-3 mb-3 text-lg">
+                        <p>Instagram: <a href="https://www.instagram.com/yozafard_harold/">
+                                @yozafard_harold
+                            </a>
+                        </p>
+                        <p>Linkedin: <a href='https://www.linkedin.com/in/yozafard-harold-siauheming'>
+                                https://www.linkedin.com/in/yozafard-harold-siauheming
+                            </a>
+                        </p>
+                        <p>Email: <a href='mailto: yozafardhs.2021@scis.smu.edu.sg'>
+                                yozafardhs.2021@scis.smu.edu.sg
+                            </a>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <a href="https://drive.google.com/file/d/1S_It-_ZJQYRSF8it_yAmtssmeDE_JZ2I/view?usp=sharing"
+                            class="btn btn-primary p-3" role="button">View my resume here!</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

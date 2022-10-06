@@ -1,0 +1,61 @@
+a {
+    color: orange;
+    text-decoration: none!important;
+    font-size: large;
+}
+
+section {
+    position: relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-weight: bold;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+
+
+.card-body, .card-title {
+    color: black;
+    text-align: left;
+}
+
+#izzy {
+    height: 75%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
