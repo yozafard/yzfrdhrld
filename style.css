@@ -53,8 +53,6 @@ section {
 }
 
 #izzy {
-    height: 75%;
-    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -78,3 +76,6 @@ strong {
     position: absolute;
 }
 
+.card {
+    border: none;
+}
